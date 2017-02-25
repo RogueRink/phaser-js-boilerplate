@@ -8,6 +8,11 @@ A template to boost the productivity of Phaser.js game developers. Provides tool
 
 ## Installing
 
+### Changes
+
+- modifed to run with P2 Physics
+
+
 ### Node.js and Grunt
 
 You will need to first install [Node.js](http://nodejs.org/download/) and the grunt-cli: `npm install -g grunt-cli`.
