@@ -12,6 +12,13 @@ A template to boost the productivity of Phaser.js game developers. Provides tool
 
 - modifed to run with P2 Physics
 
+### FIX
+
+The links to other GIT REPO
+
+###
+###
+
 
 ### Node.js and Grunt
 
@@ -21,8 +28,8 @@ You will need to first install [Node.js](http://nodejs.org/download/) and the gr
 
 Download and unpack [The Phaser.js Boilerplate](https://github.com/lukewilde/phaser-js-boilerplate/archive/master.zip). Or alternatively checkout from source:
 
-    git clone git@github.com:lukewilde/phaser-js-boilerplate.git my-sweet-game
-    cd my-sweet-game
+    git clone git@github.com:RogueRink/phaser-js-boilerplate.git Endless-Game
+    cd Endless Game
     rm -rf .git/
     git init && git add -A && git commit -m "Importing Phaser boilerplate."
 
@@ -77,7 +84,7 @@ Compiles the current build into `{title}.zip` ready for upload to [CocoonJs](htt
 
 You might notice that Phaser isn't actually bundled in with the rest of our Browserify bundle. Bundling it was our first choice initially, however leaving it out enables use of the P2 Physics engine and makes `grunt:browserify` run a whole lot faster. It also gives you the option to pull Phaser from in a [CDN](https://github.com/photonstorm/phaser#cdn).
 
-#### Using P2
+#### Already Using P2
 
 The project comes ready to run Phaser with arcade physics, but can easily be adjusted to use the P2 physics engine.
 
