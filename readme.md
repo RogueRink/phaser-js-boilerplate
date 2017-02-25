@@ -28,8 +28,8 @@ You will need to first install [Node.js](http://nodejs.org/download/) and the gr
 
 Download and unpack [The Phaser.js Boilerplate](https://github.com/lukewilde/phaser-js-boilerplate/archive/master.zip). Or alternatively checkout from source:
 
-    git clone git@github.com:RogueRink/phaser-js-boilerplate.git Endless-Game
-    cd Endless Game
+    git clone git@github.com:RogueRink/phaser-js-boilerplate.git TestBed
+    cd TestBed
     rm -rf .git/
     git init && git add -A && git commit -m "Importing Phaser boilerplate."
 
